@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>DavidK</title>
+  </head>
+  <body>
+
+    <div class="alert show">
+      <span class="warningicon"><ion-icon name="alert-circle-outline"></ion-icon></span>
+      <span class="msg">Warning: The contact form isn't working at this moment!</span>
+    </div>
+
+
+
+
+
+
+    <header class="header">
+      <div class="text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary-main">Hi,</span>
+          <span class="second-line">I'm David,</span>
+          <span class="third-line">I'm a Web Developer</span>
+          <span class="heading-primary-sub">Front End Developer</span>
+        </h1>
+
+        <a href="#" class="contact--btn">Contact me</a>
+      </div>
+    </header>
+
+    <div class="navigation">
+      <div class="menuToggle"></div>
+      <ul>
+        <li class="list actives" style="--clr: #5100d5">
+          <a href="#secAbout">
+            <span class="icon">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+            <span class="text">About</span>
+          </a>
+        </li>
+        <li class="list" style="--clr: #5100d5">
+          <a href="#secSkill">
+            <span class="icon"
+              ><ion-icon name="library-outline"></ion-icon
+            ></span>
+            <span class="text">Skills</span>
+          </a>
+        </li>
+        <li class="list" style="--clr: #5100d5">
+          <a href="#secWork">
+            <span class="icon">
+              <ion-icon name="color-palette-outline"></ion-icon>
+            </span>
+            <span class="text">Work</span>
+          </a>
+        </li>
+        <li class="list" style="--clr: #5100d5">
+          <a href="#secContact">
+            <span class="icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <span class="text">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <section id="secAbout" class="section-about">
+      <h2 class="aboutme--name">Myself & I</h2>
+      <p class="aboutme--text-1">
+        I'm a Front-End Developer from Slovakia. I have a serious interest for
+        creating responsive, dynamic user experiences, UI effects and a bit
+        animations.
+      </p>
+      <p class="aboutme--text-2">
+        Well-organised person, problem solver. Interested in the entire frontend
+        spectrum and working with small and big group of talented people.
+      </p>
+    </section>
+
+    <section id="secSkill"  class="section-myskills">
+      
+      <h2 class="skills--name">My Skills & Experience</h2>
+      <p class="myskills--text-1">
+        I created responsive small and medium websites that are fast, easy to
+        use, and built with best practices.
+      </p>
+      <p class="myskills--text-2">
+        The main area of my expertise is front-end development, HTML, CSS/SASS,
+        JS, custom plugins, features, animations, and coding interactive
+        layouts. I also have interest in full-stack development experience.
+      </p>
+    </section>
+
+
+    <section id="secContact">
+    <div class="box">
+      <!-- Form Box-->
+      <div class="contact form">
+        <form action="https://formspree.io/f/mjvlqanz" method="post">
+          <div class="formBox">
+            <div class="row50">
+              <div class="inputBox">
+                <span>First Name</span>
+                <input type="text" placeholder="John" />
+              </div>
+
+              <div class="inputBox">
+                <span>Last Name</span>
+                <input type="text" placeholder="Doe" />
+              </div>
+            </div>
+
+            <div class="formBox">
+            <div class="row50">
+              <div class="inputBox">
+                <span>Email</span>
+                <input type="text" placeholder="johndoe@email.com" />
+              </div>
+
+              <div class="inputBox">
+                <span>Mobile</span>
+                <input type="text" placeholder="+421 123 45 67" />
+              </div>
+            </div>
+
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Message</span>
+                  <textarea placeholder="Write your message here..."></textarea>
+              </div>
+            </div>
+
+            <div class="row100">
+              <div class="inputBox">
+                <input type="submit" value="Send">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Info Box-->
+      <div class="contact info">
+        <h3>Contact Info</h3>
+        <div class="infoBox">
+          <div>
+          <span><ion-icon name="location"></ion-icon></span>
+          <p>Tornľa, Banskobystrický kraj <br>SLOVAKIA</p>
+        </div>
+
+        <div>
+          <span><ion-icon name="mail"></ion-icon></span>
+          <a href="mailto:dawek977@gmail.com">dawek977@gmail.com</a>
+        </div>
+
+        <div>
+          <span><ion-icon name="call"></ion-icon></span>
+          <a href="tel:+421911443131">+421 911 4431 31</a>
+        </div>
+
+        <!-- Info Box-->
+        <ul class="sci">
+          <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+      </div>
+
+      <!-- Map Box-->
+      <div class="contact map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17818.445828591666!2d20.338433448283933!3d48.404169891382345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473f9a6822a7e4df%3A0x9ef3a6af9b94cc9d!2s982%2001%20Torna%C4%BEa!5e0!3m2!1sen!2ssk!4v1657480861996!5m2!1sen!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

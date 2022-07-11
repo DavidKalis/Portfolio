@@ -1,0 +1,86 @@
+.text-box {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding-left: 10.625rem;
+  padding-top: 12.5rem;
+  line-height: 1.2;
+  color: #fff;
+  white-space: pre-line;
+}
+
+.heading-primary-sub {
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+}
+
+.contact--btn {
+  color: #5100d5;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-top: 1px;
+  position: relative;
+  width: 100%;
+  max-width: 13.75rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  display: block;
+  text-align: center;
+  border: 1px solid #5100d5;
+}
+
+.contact--btn:hover {
+  color: #fff;
+  background: #5100d5;
+  box-shadow: 0 0 10px #5100d5 0 0 40px #5100d5 0 0 80px;
+  transition-delay: 0.23s;
+}
+
+.section-about {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding-left: 10.625rem;
+  padding-top: 21.5rem;
+  color: #fff;
+}
+
+.aboutme--text-1 {
+  font-size: 1rem;
+  white-space: pre-line;
+  padding-top: 0.938rem;
+  padding-bottom: 1rem;
+}
+.aboutme--text-2 {
+  font-size: 1rem;
+  white-space: pre-line;
+  padding-top: 0.938rem;
+  padding-bottom: 20rem;
+}
+
+.section-myskills {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding-left: 10.625rem;
+  padding-top: 21.5rem;
+  color: #fff;
+}
+
+.myskills--text-1 {
+  font-size: 1rem;
+  white-space: pre-line;
+  padding-top: 0.938rem;
+  padding-bottom: 1rem;
+}
+
+.myskills--text-2 {
+  font-size: 1rem;
+  white-space: pre-line;
+  padding-bottom: 20rem;
+}
