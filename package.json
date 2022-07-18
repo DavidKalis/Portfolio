@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio Website",
-  "default": "index.js",
+  "default": "index.html",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
